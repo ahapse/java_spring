@@ -1,0 +1,38 @@
+package com.avdhoot.demorest1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class AlienRepository {
+	List<Alien> aliens;
+	public AlienRepository() {
+		aliens = new ArrayList<>();
+		
+		Alien alien1 = new Alien();
+		alien1.setNameString("XYZ");
+		alien1.setPoints(80);
+		
+		Alien alien2 = new Alien();
+		alien2.setNameString("PQR");
+		alien2.setPoints(33);
+		
+		aliens.add(alien1);
+		aliens.add(alien2);
+	}
+	public List<Alien> getAliens(){
+		return aliens;
+	}
+	public Alien getAlien(String nameString) {
+		Alien a1 = null;
+		for(Alien a : aliens) {
+			if(a.getNameString() == nameString) {
+				a1 = a;
+				return a1;
+			}
+		}
+		return new Alien() ;
+	}
+	public void create(Alien a1) {
+		aliens.add(a1);
+	}
+}

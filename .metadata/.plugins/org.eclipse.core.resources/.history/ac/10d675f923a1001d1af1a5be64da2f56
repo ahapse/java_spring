@@ -1,0 +1,423 @@
+package helloWorld;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+//import java.util.ArrayList;
+//import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.Scanner;
+import java.util.Stack;
+import java.util.StringTokenizer;
+
+
+//import java.util.*;
+
+
+//class Car{
+//	String nameString;
+//	protected int price;
+//	public Car(String nameString, int price) {
+//		// TODO Auto-generated constructor stub
+//		this.nameString = nameString;
+//		this.price = price;
+//	}
+//	public Car() {
+//		// TODO Auto-generated constructor stub
+//		System.out.println("I am inside normal constructor");
+//	}
+//	public void display() {
+//		System.out.println("Brand of the car is - "+ nameString);
+//		System.out.println("Price of the car is - "+ price);
+//	}
+//}
+
+interface Par1{
+	void hello();
+}
+
+interface Par2{
+	void hello();
+}
+
+class Chi implements Par1, Par2{
+	public void hello() {
+		System.out.println("Hello");
+	}
+}
+
+class Parent{
+	int parVar;
+	static int thisIsStatic = 10;
+	public Parent(int a, int b) {
+		parVar = a;
+		System.out.println("Called in parent");
+	}
+	void show() {
+		System.out.println("parentVariable = " + parVar);
+		System.out.println("Inside the parent show method");
+	}
+	
+}
+
+class Child extends Parent{
+	public Child(int c, int b, int a) {
+		super(a, b);
+		System.out.println("Called in child");
+	}
+	void show() {
+		super.show();
+		System.out.println("parentVariable = " + parVar);
+		System.out.println("Inside the child show method");
+	}
+}
+
+class Counter{
+	static int count = 0;
+	static void inc() {
+		count++;
+	}
+}
+
+public class first {
+	
+//	static void foo(int a) {
+//		System.out.println(a*4);
+//	}
+//	static int factorial(int a) {
+//		if(a==0) {
+//			return 1;
+//		}
+//		return a*factorial(a-1);
+//	}
+//	static int calcPrice(int base) {
+//		return base*2;
+//	}
+//	static String calcPrice(int base) {
+//		return ("The price is " + base);
+//	}
+	
+	
+	@SuppressWarnings("deprecation")
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+//		System.out.println("Hi!!");
+		
+//		int a = 9;
+//		int b = 18;
+//		System.out.println(a*b);
+		
+//		Scanner sc = new Scanner(System.in);
+//		String name = sc.nextLine();
+//		System.out.println(name);
+//		String test = sc.next();
+//		System.out.println(test);
+		
+//		int c = sc.nextInt();
+//		System.out.println(c);
+//		int x = 'A';
+//		int z = 'a';
+//		char y = 'a';
+//		System.out.println(x+z);
+//		System.out.println(y);
+//		double d = 10;
+//		System.out.println(d);
+//		float f = 10.0f;
+//		System.out.println(f);
+//		long l = 10;
+//		System.out.println(l);
+//		String a = "Hello World!!!";
+//		System.out.println(a);
+		
+//		int a = 97;
+//		char b = (char)a;
+//		System.out.println(b);
+//		String aString = "34";
+//		int b = Integer.parseInt(aString);
+//		System.out.println(b);
+		
+//		int a = 4;
+//		switch (a) {
+//		case 4: {
+//			System.out.println("=4");
+//			break;
+//		}
+//		default:
+//			System.out.println("!=4");
+//		}
+		
+//		for(int i=0; i<3; i++) {
+//			System.out.println(i);
+//		}
+//		int a = 3, b = 2;
+//		System.out.println(a&b);
+
+//		String a = "a", b = "b";
+//		System.out.println(a+b);
+//		System.out.println(4.8/1.1);
+		
+//		Scanner scanner = new Scanner(System.in);
+//		int a = scanner.nextInt();
+//		System.out.println(factorial(a));
+//		
+//		int[] arr = new int[10];
+//		for(int i=0; i<10; i++) {
+//			arr[i] = i;
+//			System.out.println(arr[i]);
+//		}
+//		System.out.println(arr.length);
+//		
+//		System.out.println(args[0]+ args[1]);
+		
+//		int a = 10;
+//		System.out.println(a==10?true:false);
+		
+//		ArrayList<Integer> vec = new ArrayList<>();
+		
+//		Car car1 = new Car();
+//		car1.nameString = "Tata";
+//		car1.price = 200000;
+//		car1.display();
+		
+//		Car car1 = new Car("Tata", 20000);
+//		car1.display();
+//		Car car2 = new Car();
+//		car2.display();
+		
+//		Car car1 = new Car();
+//		car1.price = 40;
+//		System.out.println(car1.price);
+		
+		
+//		Parent obj1 = new Child(5, 4, 9);
+//		obj1.show();
+		
+//		System.out.println(Child.thisIsStatic);
+		
+//		final int a=10;
+//		System.out.println(a);
+		
+//		Child objParent = new Child(3,2,3);
+//		System.out.println(objParent instanceof Parent);
+		
+//		Chi objChi = new Chi();
+//		objChi.hello();
+		
+//		String aString = "34";
+//		String bString = "4";
+//		System.out.println(Integer.parseInt(aString)+Integer.parseInt(bString));
+		
+//		System.out.println(Math.sqrt(144));
+		
+		
+//		String aString = "hello";
+//		System.out.println(aString);
+//		String bString = "World!";
+//		System.out.println(bString);
+//		aString = aString.concat(bString);
+//		System.out.println(aString);
+//		String cString = aString+bString;
+//		System.out.println(cString);
+		
+		
+//		String aString = "Hello";
+//		String bString = new String("Hello");
+//		if(aString.equalsIgnoreCase(bString))	
+//			System.out.println(true);
+//		else	System.out.println(false);
+//		
+//		int a = aString.compareTo(bString);
+//		System.out.println(a);
+
+//		String ab  = "Hello! Welocome to my world!";
+//		System.out.println(ab.indexOf("come"));
+		
+//		String aString = "Hello";
+//		aString = aString.replace("ll", "L");
+//		System.out.println(aString);
+		
+//		String str = "AbcdEf123";
+//		System.out.println(str.toLowerCase());
+	
+//		String str = "ABC";
+//		System.out.println(str.getClass());
+		
+//		int a = 235;
+//		float b = 432.54f;
+//		String aString = String.valueOf(b);
+//		System.out.println(aString);
+		
+//		StringBuffer str = new StringBuffer("test");
+//		str.insert(2, 123);
+//		System.out.println(str);
+		
+//		int a = sc.nextInt();
+//		sc.nextLine();
+//		
+//		
+//		String aString = sc.nextLine();
+//		System.out.println(a);
+//		System.out.println("My string is : "+aString);
+		
+		
+//		StringTokenizer obj = new StringTokenizer("Welcome to studytonight"," ");  
+//		while (obj.hasMoreTokens()) 
+//		{  
+//			System.out.println(obj.nextToken());  
+//		}  
+		
+		
+//		ArrayList<Integer> vec = new ArrayList<>();
+//		vec.add(10);
+//		vec.add(20);
+//		vec.add(30);
+//		System.out.println(vec);
+//		vec.add(1, 15);
+//		System.out.println(vec);
+//		vec.remove(2);
+//		System.out.println(vec);
+//		vec.remove(Integer.valueOf(15));
+//		System.out.println(vec);
+//		vec.clear();
+//		System.out.println(vec);
+//		System.out.println(vec.contains(20));
+		
+		
+//		Stack<Integer> st = new Stack<>();
+//		for(int i=0; i<9; i++) {
+//			st.push(i*i);
+//		}
+//		System.out.println(st.peek());
+//		System.out.println(st.size());
+//		st.pop();
+//		System.out.println(st.peek());
+//		System.out.println(st.size());
+//		System.out.println(st);
+		
+//		PriorityQueue<Integer> pQueue = new PriorityQueue<>();
+//		pQueue.offer(23);
+//		pQueue.offer(54);
+//		pQueue.offer(37);
+//		pQueue.offer(12);
+//		System.out.println(pQueue);
+
+		
+//		ArrayList<Integer> aList = new ArrayList<>();
+//		aList.add(34);
+//		System.out.println(aList.add(20));
+//		System.out.println(aList);
+//		aList.clear();
+//		System.out.println(aList);
+//		
+//		Iterator<Integer> it = aList.iterator();
+//		while (it.hasNext()) {
+//			Integer a = it.next();
+//			System.out.println(a);
+//		}
+//		
+
+//		LinkedList<Integer> linkedList = new LinkedList<>(aList);
+//		linkedList.add(null);
+//		linkedList.add(34);
+//		System.out.println(linkedList);
+		
+		
+//		Thread t1 = new Thread(new Runnable() {
+//			@Override
+//			public void run() {
+//				for(int i=0; i<10000; i++) {
+//					Counter.inc();
+//				}
+//			}
+//		});
+//		t1.start();
+//		t1.join();
+//		System.out.println(Counter.count);
+		
+		
+//		Comparator<Integer> connComparator = new Comparator<Integer>() {
+//			@Override
+//			public int compare(Integer o1, Integer o2) {
+//				// TODO Auto-generated method stub
+//				if(o1%10>o2%10)	return 1;
+//				else	return -1;
+//			}
+//		};
+//		List<Integer> list = new ArrayList<Integer>();
+//		list.add(23);
+//		list.add(18);
+//		list.add(30);
+//		list.add(20);
+//		System.out.println(list);
+//		Collections.sort(list, connComparator);
+//		System.out.println(list);
+		
+		
+//		try {
+//    		File Obj = new File("FileDemo.txt");
+//    		if (Obj.createNewFile())	{
+//		        System.out.println("******File created******");
+//           		  System.out.println("Name of the file = " + Obj.getName());
+//              } 
+//            else{
+//		       System.out.println("File already exists.");
+//            }
+//		} 
+//		catch (IOException e){
+//			e.printStackTrace();
+//		}
+		
+		
+//		try {
+////			int a = Integer.parseInt("Hello");
+//			int v = 5/0;
+//		} catch (Exception e) {
+//			// TODO: handle exception
+//			System.out.println("Exception caught " + e.getLocalizedMessage() );
+//		}
+		
+//		String a = "Hello", bString = "World";
+//		HashMap<Character , Integer> hm = new HashMap<>();
+//        
+//        for(int i=0; i<a.length(); i++) {
+//        	int z;
+//        	if(hm.get(a.charAt(i))==null) {
+//        		z = 1;
+//        	}
+//        	else {
+//        		z = hm.get(a.charAt(i))+1;
+//        	}
+////        	System.out.println(z);
+//        	hm.put(a.charAt(i), z);
+//        	
+//        }
+//        System.out.println(hm);
+		
+		
+		try {
+			System.out.println(1/0);
+		}
+		catch (Exception exception) {
+			// TODO: handle exception
+			System.out.println("Where are you?");
+		}
+		finally {
+			System.out.println("Something went wrong");
+		}
+		
+		
+		
+	}
+}

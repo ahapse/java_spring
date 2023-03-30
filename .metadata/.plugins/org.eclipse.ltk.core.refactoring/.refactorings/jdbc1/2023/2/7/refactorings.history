@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;StudentDaoImpl.java&apos; to &apos;jdbc1/src/main/java/com.avdhoot.spring.jdbc1.dao&apos;&#x0D;&#x0A;- Original project: &apos;jdbc1&apos;&#x0D;&#x0A;- Destination element: &apos;jdbc1/src/main/java/com.avdhoot.spring.jdbc1.dao&apos;&#x0D;&#x0A;- Original element: &apos;com.avdhoot.spring.jdbc1.entities.StudentDaoImpl.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.avdhoot.spring.jdbc1.dao" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.avdhoot.spring.jdbc1.entities{StudentDaoImpl.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1676273255503" units="1" version="1.0"/>
+</session>

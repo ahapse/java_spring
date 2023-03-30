@@ -1,0 +1,7 @@
+package com.avdhoot.demorest1;
+
+import java.util.List;
+
+public class AlienRepository {
+	List<Alien>
+}

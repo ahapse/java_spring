@@ -1,0 +1,6 @@
+com\avdhoot\spring\finalTest\BookResource.class
+com\avdhoot\spring\finalTest\entities\Book.class
+com\avdhoot\spring\finalTest\dao\BookDao.class
+com\avdhoot\spring\finalTest\dao\BookDaoImpl.class
+com\avdhoot\spring\finalTest\dao\RowMapperImpl.class
+com\avdhoot\spring\finalTest\MyResource.class

@@ -1,0 +1,27 @@
+package com.avdhoot.demorest1;
+
+
+@javax.xml.bind.annotation.XmlRootElement
+public class Alien {
+	private String nameString;
+	private int points;
+	
+	public String getNameString() {
+		return nameString;
+	}
+	public void setNameString(String nameString) {
+		this.nameString = nameString;
+	}
+	public int getPoints() {
+		return points;
+	}
+	public void setPoints(int points) {
+		this.points = points;
+	}
+	@Override
+	public String toString() {
+		return "Alien [nameString=" + nameString + ", points=" + points + "]";
+	}
+	
+	
+}

@@ -1,0 +1,14 @@
+package com.avdhoot.demorest1;
+
+import jakarta.ws.rs.Path;
+
+@Path("aliens")
+public class AlienResource {
+	public Alien getAlien() {
+		Alien a1 = new Alien();
+		a1.setNameString("Avd");
+		a1.setPoints(50);
+		
+		return a1;
+	}
+}

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\CEPL\eclipse-workspace\finalTest"/>
+			<item value="C:\Users\CEPL\eclipse-workspace\jerseyrest"/>
+			<item value="C:\Users\CEPL\eclipse-workspace\springjdbc\pom.xml"/>
+			<item value="C:\Users\CEPL\eclipse-workspace\springjdbc\src\main\java\com\spring\jdbc\config.xml"/>
+			<item value="C:\Users\CEPL\Downloads\feb99\feb99"/>
+			<item value="C:\Users\CEPL\eclipse-workspace\restproj"/>
+			<item value="C:\Users\CEPL\eclipse-workspace\demorest2"/>
+			<item value="C:\Users\CEPL\eclipse-workspace\demorest1"/>
+			<item value="C:\Users\CEPL\eclipse-workspace\Servers"/>
+			<item value="C:\Users\CEPL\eclipse-workspace\JDBC"/>
+			<item value="C:\Users\CEPL\eclipse-workspace\Maven1"/>
+			<item value="C:\Users\CEPL\eclipse-workspace\helloWorld\src\helloWorld\first.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.avdhoot.spring"/>
+			<item value="com.avdhoot.spring.a"/>
+			<item value="com.avdhoot.spring.springBoot"/>
+			<item value="com.avdhoot.spring.finalTest"/>
+			<item value="com.avdhoot.spring.jdbc1"/>
+		</list>
+		<list key="groupId">
+			<item value="com.avdhoot.spring"/>
+		</list>
+		<list key="artifactId">
+			<item value="123a"/>
+			<item value="springBoot"/>
+			<item value="finalTest"/>
+			<item value="jdbc1"/>
+			<item value="JDBC1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\CEPL\Downloads\springBoot"/>
+			<item value="C:\Users\CEPL\Downloads\demo"/>
+			<item value="C:\Users\CEPL\eclipse-workspace\gs-rest-service-main"/>
+			<item value="C:\Users\CEPL\Downloads\feb99\feb99"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>
